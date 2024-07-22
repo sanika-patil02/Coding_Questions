@@ -12,7 +12,6 @@ public:
             }
             if(count==1){
                 return num;
-                break;
             }
         }
         return -1;
