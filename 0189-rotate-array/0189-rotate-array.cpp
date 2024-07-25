@@ -1,3 +1,4 @@
+// reverse() is a predefined function in header file algorithm.It reverses the order of the elements in the range [first, last) of any container. The time complexity is O(n). 
 class Solution {
 public:
     void rotate(vector<int>& nums, int k) {
