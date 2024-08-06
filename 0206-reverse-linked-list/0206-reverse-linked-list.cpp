@@ -24,5 +24,7 @@ public:
         head=prev;
         return head;
         
+        // Time Complexity=o(n)
+        // Space Complexity=o(1)
     }
 };
