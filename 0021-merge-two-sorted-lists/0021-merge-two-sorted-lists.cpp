@@ -16,20 +16,17 @@ public:
         // if(list1==NULL) return list2;
         // if(list2==NULL) return list1;
 
-        // ListNode *n=new ListNode();
-        // ListNode *head;
+        // ListNode *head=new ListNode();
         // ListNode *curr1=list1;
         // ListNode *curr2=list2;
         // if((curr1->val) < (curr2->val)){
-        //     n->val=curr1->val;
-        //     n->next=NULL;
-        //     head=n;
+        //     head->val=curr1->val;
+        //     head->next=NULL;
         //     curr1=curr1->next;
         // }
         // else{
-        //     n->val=curr2->val;
-        //     n->next=NULL;
-        //     head=n;
+        //     head->val=curr2->val;
+        //     head->next=NULL;
         //     curr2=curr2->next;
         // }
         // ListNode *curr=head;
@@ -74,8 +71,6 @@ public:
         // if(list2==NULL) return list1;
 
         // ListNode *dummy=new ListNode();
-        // dummy->val=0;
-        // dummy->next=NULL;
         // ListNode *curr=dummy;
         // ListNode *curr1=list1;
         // ListNode *curr2=list2;
@@ -124,13 +119,10 @@ public:
 // Optimal Approach-Time Complexity o(n1)+o(n2)
 // Space Complexity-o(1)
 
-
 // if(list1==NULL) return list2;
 // if(list2==NULL) return list1; 
 
 // ListNode *dummy=new ListNode();
-// dummy->val=0;
-// dummy->next=NULL;
 // ListNode *curr=dummy;
 // ListNode *curr1=list1;
 // ListNode *curr2=list2;
