@@ -11,13 +11,13 @@ public:
     void deleteNode(ListNode* node) {
 
 // Time Complexity-o(1),Space Complexity-o(1)
-        // ListNode* temp=node->next;
-        // node->val=temp->val;
-        // node->next=temp->next;
+        ListNode* temp=node->next;
+        node->val=temp->val;
+        node->next=temp->next;
 
 // OR
-        node->val=node->next->val;
-        node->next=node->next->next;
+        // node->val=node->next->val;
+        // node->next=node->next->next;
         
     }
 };
